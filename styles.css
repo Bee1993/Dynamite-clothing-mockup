@@ -1,5 +1,6 @@
 body{
     background: white;
+    margin: auto;
 }
 nav{
     background-color: white;
@@ -12,7 +13,7 @@ nav{
 nav ul{
 display: inline-block;
 list-style-type: none;
-
+white-space: nowrap;
 font-family: sans-serif;
 padding: 0;
 }
@@ -25,3 +26,17 @@ text-decoration: none;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: black;
 }
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    max-width: 600px;
+    height: 300px;
+  }
+  
+  div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
