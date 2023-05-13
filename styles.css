@@ -36,11 +36,10 @@ h2{
 
 .container {
   display: flex;
-  margin: auto;
+  margin: 20px;
   justify-content: center;
-  height: 100dvh;
-  border: 1px solid black;
-  padding: auto;
+  height: 50dvh;
+  padding: 10px;
   }
   .card {
     padding: 1em 2em;
@@ -51,8 +50,8 @@ h2{
     height: 300px;
   }
   .container2{
-    border: 1px solid black;
     display: flex;
-    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
     justify-content: space-between;
   }
